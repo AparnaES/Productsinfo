@@ -15,12 +15,14 @@
 </head>
 
 <body>
-    <form action="" class="container w-50 text-center bg-secondary mt-4 p-5 border" style="border-radius: 30px;">
+    <form action="" class="container w-50 text-center bg-dark mt-4 p-5" style="border-radius: 30px;border: 2px yellow solid;">
         <h1 class="text-white">Search Products</h1>
         <input type="text" id="psid" class="form-control mt-3" placeholder="Enter Product Id">
         <button class="btn btn-primary mt-4" type="button" onclick="searchProducts()">SEARCH</button>
     </form>
-    <div class="container w-50 text-center bg-secondary mt-4 p-5 text-white" style="border-radius: 30px;" id="output"></div>
+    <button class="btn btn-primary mt-2" style="margin-left: 644px;" onclick="logOut()">Logout</button>
+    <div class="container w-50 text-center bg-dark mt-2 p-5 text-white" style="border-radius: 30px;border: 2px yellow solid;" id="output">
+    </div>
 
 </body>
 <script src="./product.js"></script>
